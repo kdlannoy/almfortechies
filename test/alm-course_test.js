@@ -27,6 +27,8 @@ exports['welcomeMessage'] = {
     done();
   },
   'all tests': function(test) {
-    test.
+    test.equal(alm_course.sum(1,2),3, "Tis gelukt");
+    test.equal(alm_course.sum(null, 1), 1, "Aight");
+    test.done();
   },
 };
