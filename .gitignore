@@ -9,5 +9,4 @@ jspm_packages
 .idea/*
 
 .jshintrc
-Procfile
 README.md
